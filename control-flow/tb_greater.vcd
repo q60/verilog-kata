@@ -1,0 +1,86 @@
+$date
+	Fri Sep 10 23:07:59 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_greater $end
+$var wire 1 ! out $end
+$var reg 2 " a [1:0] $end
+$var reg 2 # b [1:0] $end
+$scope module test_greater $end
+$var wire 2 $ a [1:0] $end
+$var wire 2 % b [1:0] $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+b0 "
+0!
+$end
+#1
+b1 #
+b1 %
+#2
+b10 #
+b10 %
+#3
+b11 #
+b11 %
+#4
+1!
+b1 "
+b1 $
+b0 #
+b0 %
+#5
+0!
+b1 #
+b1 %
+#6
+b10 #
+b10 %
+#7
+b11 #
+b11 %
+#8
+b10 "
+b10 $
+1!
+b0 #
+b0 %
+#9
+b1 #
+b1 %
+#10
+0!
+b10 #
+b10 %
+#11
+b11 #
+b11 %
+#12
+b11 "
+b11 $
+1!
+b0 #
+b0 %
+#13
+b1 #
+b1 %
+#14
+b10 #
+b10 %
+#15
+0!
+b11 #
+b11 %
+#16
