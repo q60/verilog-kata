@@ -1,4 +1,4 @@
-// testbench for `greater` module.
+// testbench for `greater' module.
 
 `timescale 1ns/1ns
 `include "greater.v"
@@ -14,6 +14,8 @@ module tb_greater;
       $dumpfile("tb_greater.vcd");
       $dumpvars(0, tb_greater);
 
+      // vector assignment like pattern matching
+      // in functional programming languages.
       {a, b} = 4'b0000; #1;
       {a, b} = 4'b0001; #1;
       {a, b} = 4'b0010; #1;
@@ -33,4 +35,4 @@ module tb_greater;
 
       $display("success");
    end // initial begin
-endmodule
+endmodule // tb_greater
