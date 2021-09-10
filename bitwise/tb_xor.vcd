@@ -1,0 +1,35 @@
+$date
+	Fri Sep 10 22:21:39 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_xor $end
+$var wire 1 ! out $end
+$var reg 2 " bus [1:0] $end
+$scope module test_xor $end
+$var wire 2 # bus [1:0] $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 #
+b11 "
+0!
+$end
+#10
+b0 "
+b0 #
+#20
+1!
+b10 "
+b10 #
+#30
+b1 "
+b1 #
+#40
