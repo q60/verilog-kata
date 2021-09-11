@@ -16,6 +16,7 @@ module tb_add1bit;
       $dumpfile("tb_add2bit.vcd");
       $dumpvars(0, tb_add1bit);
 
+      c_in = 1'b0;
       {a, b} = 4'b0000;
       c_in = c_out; #10;
       {a, b} = 4'b0001;
