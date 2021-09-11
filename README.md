@@ -1,6 +1,6 @@
 # verilog-kata
 
-<img align="left" width="25%" src="https://i.imgur.com/UJjh27X.jpg">
+<img align="left" width="27%" src="https://i.imgur.com/UJjh27X.jpg">
 
 Verilog (and **H**ardware **D**escription **L**anguages in general) basics through code examples.
 
