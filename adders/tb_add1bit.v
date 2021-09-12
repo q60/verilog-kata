@@ -10,10 +10,12 @@ module tb_add1bit;
    add1bit test_add1bit(a, b, c_in, sum, c_out);
 
    initial begin
+      assign c_in = 1'b0;
+
       $dumpfile("tb_add1bit.vcd");
       $dumpvars(0, tb_add1bit);
+      $monitor("0x%0h + 0x%0h = 0x%0h (carry = %d)", a, b, sum, c_out);
 
-      c_in = 1'b0;
       {a, b} = 2'b00;
       c_in = c_out; #10;
       {a, b} = 2'b01;

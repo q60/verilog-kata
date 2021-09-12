@@ -15,12 +15,16 @@ module tb_add1bit;
    add4bit test_add4bit(a, b, c_in, sum, c_out);
 
    initial begin
+      assign c_in = 1'b0;
+
       $dumpfile("tb_add4bit.vcd");
       $dumpvars(0, tb_add1bit);
+      $monitor("0x%0h + 0x%0h = 0x%0h (carry = %d)", a, b, sum, c_out);
 
-      c_in = 1'b0;
       for (i = 0; i < 256; i = i + 1) begin
-         {a, b} = i; #10;
+         {a, b} = i;
+         c_in = c_out;
+         #10;
       end;
 
 
