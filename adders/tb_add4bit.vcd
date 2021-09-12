@@ -1,5 +1,5 @@
 $date
-	Sun Sep 12 15:16:40 2021
+	Sun Sep 12 15:28:31 2021
 $end
 $version
 	Icarus Verilog
@@ -21,21 +21,21 @@ $var wire 1 % c_in $end
 $var wire 4 ) sum [3:0] $end
 $var wire 1 " c_out $end
 $var wire 1 * c_b $end
-$scope module f00 $end
+$scope module fa2_0 $end
 $var wire 2 + a [1:0] $end
 $var wire 2 , b [1:0] $end
 $var wire 1 - c_in $end
 $var wire 2 . sum [1:0] $end
 $var wire 1 * c_out $end
 $var wire 1 / c_b $end
-$scope module f0 $end
+$scope module fa1_0 $end
 $var wire 1 0 a $end
 $var wire 1 1 b $end
 $var wire 1 2 c_in $end
 $var wire 1 / c_out $end
 $var wire 1 3 sum $end
 $upscope $end
-$scope module f1 $end
+$scope module fa1_1 $end
 $var wire 1 4 a $end
 $var wire 1 5 b $end
 $var wire 1 / c_in $end
@@ -43,21 +43,21 @@ $var wire 1 * c_out $end
 $var wire 1 6 sum $end
 $upscope $end
 $upscope $end
-$scope module f11 $end
+$scope module fa2_1 $end
 $var wire 2 7 a [1:0] $end
 $var wire 2 8 b [1:0] $end
 $var wire 1 * c_in $end
 $var wire 2 9 sum [1:0] $end
 $var wire 1 " c_out $end
 $var wire 1 : c_b $end
-$scope module f0 $end
+$scope module fa1_0 $end
 $var wire 1 ; a $end
 $var wire 1 < b $end
 $var wire 1 = c_in $end
 $var wire 1 : c_out $end
 $var wire 1 > sum $end
 $upscope $end
-$scope module f1 $end
+$scope module fa1_1 $end
 $var wire 1 ? a $end
 $var wire 1 @ b $end
 $var wire 1 : c_in $end
