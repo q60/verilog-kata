@@ -5,5 +5,7 @@
 module greater (input [1:0] a, b,
                 output      out);
 
-   assign out = a > b;
+   // can be done like that:
+   // assign out = a > b;
+   assign out = a[1] & ~b[1] | a[0] & ~b[1] & ~b[0] | a[1] & a[0] & ~b[0];
 endmodule // greater
